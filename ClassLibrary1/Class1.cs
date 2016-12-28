@@ -12,5 +12,9 @@ namespace ClassLibrary1
         {
             return "Hello World!";
         }
+        public string CreatePunchingLarryText()
+        {
+            return "I love Larry";
+        }
     }
 }

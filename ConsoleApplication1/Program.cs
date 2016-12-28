@@ -15,7 +15,12 @@ namespace ConsoleApplication1
 
             var text = textBuilder.CreateHelloWorldText();
 
-            Console.WriteLine(text);            
+            Console.WriteLine(text);
+
+            var text2 = textBuilder.CreatePunchingLarryText();
+
+            Console.WriteLine(text2);
+                        
         }
     }
 }
